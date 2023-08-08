@@ -1,4 +1,4 @@
-import React from "react";
+
 import paperPlane from "../assets/3d-fluency-paper-plane.png"
 import envelope from "../assets/3d-fluency-opened-envelope.png"
 import browserWindow from "../assets/business-3d-browser-window-with-open-web-page.png"

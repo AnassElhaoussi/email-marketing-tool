@@ -1,4 +1,4 @@
-import React from "react";
+
 import robot from "../assets/3d-fluency-chatbot.png"
 import blackDoodle from "../assets/inky-firework.png"
 

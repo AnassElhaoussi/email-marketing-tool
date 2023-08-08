@@ -1,4 +1,4 @@
-import React from "react";
+
 import boost from "../assets/icons8-boost-96.png";
 
 const Navigation = () => {

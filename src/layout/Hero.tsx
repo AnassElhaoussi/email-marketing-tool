@@ -1,4 +1,4 @@
-import React from "react";
+
 import mainImage from "../assets/vecteezy_3d-flying-space-with-dollar-coin-or-3d-flying-rocket-with_10915819_389.png";
 import underline from "../assets/quirky-pink-line.png";
 import smallConfetti from "../assets/quirky-small-confetti.png"

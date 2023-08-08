@@ -1,4 +1,4 @@
-import React from "react";
+
 import check from "../assets/icons8-check-96.png"
 import doodlyBrushLine from "../assets/quirky-doodly-brush-line.png"
 
