@@ -1,10 +1,17 @@
 
 import robot from "../assets/3d-fluency-chatbot.png"
 import blackDoodle from "../assets/inky-firework.png"
+import useComponentAnimation from "../hooks/useComponentAnimation";
+import {motion} from "framer-motion"
 
 const Card = () => {
+  const {animation, ref} = useComponentAnimation({
+    animationType: "horizontal",
+    delayTime: 0.05,
+    startingPoint: null
+  })
   return (
-    <section className="relative flex flex-wrap gap-y-7 justify-between items-center px-16 py-10 bg-gradient-to-r from-blue-900 to-blue-600 mx-10 rounded-3xl shadow-2xl shadow-gray-400">
+    <motion.section className="relative flex flex-wrap gap-y-7 justify-between items-center px-16 py-10 bg-gradient-to-r from-blue-900 to-blue-600 mx-10 rounded-3xl shadow-2xl shadow-gray-400" animate={animation} ref={ref}>
       <img src={blackDoodle} alt="" className="absolute w-20 top-5 right-10" />
       <div className="relative text-start space-y-2">
         <img src={robot} alt="" className="absolute -top-40 w-52" />
@@ -15,7 +22,7 @@ const Card = () => {
         </p>
       </div>
       <button className="bg-white text-blue-600 font-bold py-3 px-6 rounded-xl text-xl hover:scale-110 transition-all">Build it now</button>
-    </section>
+    </motion.section>
   );
 };
 

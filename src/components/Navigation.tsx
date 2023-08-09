@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <nav className="relative flex lg:flex-row flex-col justify-between items-center text-gray-800 px-10 py-5 font-light ">
       <div className="flex justify-between items-center lg:w-fit w-full">
-        <span className="flex items-center font-black text-2xl pr-10">
+        <span className="flex items-center font-black text-2xl pr-10 cursor-pointer">
           <img src={boost} alt="" className="w-10" />
           AffiliateBoost
         </span>
@@ -27,28 +27,23 @@ const Navigation = () => {
         <div className="lg:static absolute z-20 top-20 lg:w-auto w-full flex lg:flex-row flex-col lg:gap-32 gap-5 lg:py-0 py-5 items-center lg:bg-transparent bg-gray-300">
           <div className="lg:w-auto w-full flex lg:flex-row lg:text-sm text-xl font-light flex-col lg:gap-x-20 items-center">
             <a
-              href=""
+              href="#services"
               className="py-4 hover:bg-gray-700 hover:text-gray-200 lg:hover:bg-transparent lg:hover:text-purple-600 w-full text-center transition-all"
             >
-              Home
+              Services
             </a>
+            
             <a
-              href=""
-              className="py-4 hover:bg-gray-700 hover:text-gray-200 lg:hover:bg-transparent lg:hover:text-purple-600 w-full text-center transition-all"
-            >
-              About
-            </a>
-            <a
-              href=""
+              href="#features"
               className="py-4 hover:bg-gray-700 hover:text-gray-200 lg:hover:bg-transparent  lg:hover:text-purple-600 w-full text-center transition-all"
             >
-              Pricing
+              Features
             </a>
             <a
-              href=""
+              href="#pricing"
               className="py-4 hover:bg-gray-700 hover:text-gray-200 lg:hover:bg-transparent lg:hover:text-purple-600 w-full text-center transition-all"
             >
-              Contact
+              Pricing
             </a>
           </div>
         </div>
