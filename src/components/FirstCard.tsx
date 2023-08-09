@@ -4,7 +4,7 @@ import blackDoodle from "../assets/inky-firework.png"
 
 const Card = () => {
   return (
-    <section className="relative flex justify-between items-center px-16 py-10 bg-gradient-to-r from-blue-900 to-blue-600 mx-10 rounded-3xl shadow-2xl shadow-gray-400">
+    <section className="relative flex flex-wrap gap-y-7 justify-between items-center px-16 py-10 bg-gradient-to-r from-blue-900 to-blue-600 mx-10 rounded-3xl shadow-2xl shadow-gray-400">
       <img src={blackDoodle} alt="" className="absolute w-20 top-5 right-10" />
       <div className="relative text-start space-y-2">
         <img src={robot} alt="" className="absolute -top-40 w-52" />

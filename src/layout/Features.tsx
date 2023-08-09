@@ -7,8 +7,9 @@ import pinkDoodle from "../assets/quirky-pink-doodle.png"
 const Features = () => {
   return (
     <section className="px-10 space-y-16 pb-10">
-      <div className="flex justify-between pb-14">
-        <div className="space-y-2">
+      <div className="flex flex-wrap relative pb-14">
+        <div className="space-y-4">
+          <img src={pinkDoodle} alt="" className="w-20" />
           <h1 className="text-7xl text-gray-800">
             Discover The Key Features
           </h1>
@@ -17,10 +18,9 @@ const Features = () => {
             strategies like never before.
           </p>
         </div>
-        <img src={pinkDoodle} alt="" className="w-20" />
       </div>
-      <div className="flex gap-5">
-        <div className="relative flex flex-col gap-y-4 items-center w-1/3 bg-gradient-to-b from-gray-50 to-gray-200 p-8 rounded-2xl text-center border-b-8 border-gray-700">
+      <div className="flex xl:flex-nowrap flex-wrap items-stretch justify-center gap-x-5 gap-y-20">
+        <div className="relative flex flex-col gap-y-4 items-center bg-gradient-to-b flex-1 from-gray-50 to-gray-200 p-8 rounded-2xl text-center border-b-8 border-gray-700">
           <img src={envelope} alt="" className="absolute w-28 -top-16 bg-gradient-to-b from-gray-50 to-gray-200 rounded-lg p-4" />
           <h2 className="text-5xl font-extrabold text-gray-700 mt-10">
             Email Campaigns
@@ -31,7 +31,7 @@ const Features = () => {
           </p>
           <button className="bg-gradient-to-r from-blue-900 to-blue-600 text-white font-light py-3 px-6 rounded-lg text-xl hover:scale-105 transition-all">See more</button>
         </div>
-        <div className="relative flex flex-col gap-y-4 items-center justify-center w-1/3 bg-gradient-to-b from-gray-50 to-gray-200 p-8 rounded-2xl text-center border-b-8 border-gray-700">
+        <div className="relative flex flex-col gap-y-4 items-center justify-center flex-1 bg-gradient-to-b from-gray-50 to-gray-200 p-8 rounded-2xl text-center border-b-8 border-gray-700">
           <img src={browserWindow} alt="" className="absolute w-28 -top-16 bg-gradient-to-b from-gray-50 to-gray-200 rounded-lg p-4" />
           <h2 className="text-5xl font-extrabold text-gray-700 mt-5">
             Landing Pages
@@ -41,7 +41,7 @@ const Features = () => {
             offers and increase conversions.
           </p>
         </div>
-        <div className="relative flex flex-col gap-y-4 items-center justify-center w-1/3 bg-gradient-to-b from-gray-50 to-gray-200 p-8 rounded-2xl text-center border-b-8 border-gray-700">
+        <div className="relative flex flex-col gap-y-4 items-center justify-center flex-1 bg-gradient-to-b from-gray-50 to-gray-200 p-8 rounded-2xl text-center border-b-8 border-gray-700">
           <img src={paperPlane} alt="" className="absolute w-28 -top-16 bg-gradient-to-b from-gray-50 to-gray-200 rounded-lg p-4" />
           <h2 className="text-5xl font-extrabold text-gray-700 mt-5">
             Automation
